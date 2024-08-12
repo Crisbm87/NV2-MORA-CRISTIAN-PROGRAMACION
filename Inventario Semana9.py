@@ -1,3 +1,4 @@
+# realizamos un sistema de gestion de inventarios#
 class Producto:
     def __init__(self, id, nombre, cantidad, precio):
         self.id = id
@@ -29,7 +30,7 @@ class Producto:
     def __str__(self):
         return f"ID: {self.id}, Nombre: {self.nombre}, Cantidad: {self.cantidad}, Precio: {self.precio}"
 
-
+# en esta sección podemos añadir productos, buscar, eliminar, actualizar, mostrar todos los productos
 class Inventario:
     def __init__(self):
         self.productos = []
@@ -73,7 +74,7 @@ class Inventario:
         else:
             print("El inventario está vacío.")
 
-
+#podemos visualizar el menú completo
 def menu():
     inventario = Inventario()
 
@@ -86,7 +87,8 @@ def menu():
         print("5. Mostrar todos los productos")
         print("6. Salir")
         opcion = input("Seleccione una opción: ")
-
+        
+#podemos ingresar el inventario con cantidades, precio, nombre
         if opcion == '1':
             id = input("Ingrese el ID del producto: ")
             nombre = input("Ingrese el nombre del producto: ")
@@ -124,3 +126,4 @@ def menu():
 
 if __name__ == "__main__":
     menu()
+

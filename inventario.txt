@@ -1,0 +1,10 @@
+001,atun,50,1.75
+002,arroz,100,0.6
+003,fideo,50,0.5
+004,avena,80,0.45
+005,detergente,100,1.0
+006,Pasta dental,150,1.5
+007,Café,40,2.0
+008,lenteja,70,0.9
+009,Desinfectante,100,1.25
+010,Jabón,200,1.0
